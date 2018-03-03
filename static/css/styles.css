@@ -146,6 +146,8 @@ section.bordered {
 article .title {
   margin: 0;
   margin-bottom: .5rem;
+  color: #3196EC;
+  font-family: Geomanist-book;
 }
 
 article .thumb {
@@ -188,7 +190,7 @@ article.li.sm>header {
 
 .article-body h2 {
   padding: 1rem 0;
-  border-bottom: 2px solid #eceff1;
+  border-bottom: 2px solid #3196EC;
 }
 
 .article-body h2:first-child { margin-top: 0; }
@@ -253,7 +255,7 @@ article.li.sm>header {
 }
 
 .article-body strong {
-  box-shadow: 0 -.5rem 0 0 #5bc0de inset;
+  box-shadow: 0 -.5rem 0 0 #badfff inset;
 }
 
 .article-body em {
@@ -290,6 +292,15 @@ article.li.sm>header {
 
 .article-body figcaption a {
   color: #263238;
+}
+
+a {
+  color: #3196EC !important;
+}
+
+.panel-heading {
+
+  background-color: #e4eff9 !important;
 }
 
 
